@@ -38,6 +38,25 @@ The new ROS2 package is created to create a new action client additional to Rviz
 
 ## Usage
 
+1. Set environment variables for Gazebo:
+
+   ```bash
+   export TURTLEBOT3_MODEL=waffle
+   export GAZEBO_MODEL_PATH=$GAZEBO_MODEL_PATH:/opt/ros/humble/share/turtlebot3_gazebo/models
+
+2. Launch the ROS2 navigation stack:
+ 
+   ```bash
+   ros2 launch nav2_bringup tb3_simulation_launch.py headless:=False
+   
+3. Set the initial start position for the turtlebot using '2D Pose Estimate' button on Rviz.
+4. Navigate the robot to a specific location using 'Nav2 Goal' button on Rviz.
+5. Run the package action client to cancel the navigation goal:
+
+   ```bash
+   ros2 run robot_nav_pkg goal_cancel_client
+
+
 
    
 
