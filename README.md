@@ -48,8 +48,7 @@ The new ROS2 package is created to create a new action client additional to Rviz
 
    ```bash
    ros2 run robot_nav_pkg goal_cancel_client
-
-
-
    
+## Results
 
+The video of turtlebot navigating using rviz and receiving the cancel goal requests from the **/nav2_send_goal** is attached in [result folder](result/ROS2-robot-navigation.webm) along with other .png files.
