@@ -5,13 +5,6 @@ The goal of this project is to,
 
 This repository contains the code and configuration files for the ROS2 package.
 
-## Terms
-- Nav2
-- ROS2 action client
-- /navigate_to_pose
-- /bt_navigator
-- /rviz
-
 ## Understanding
 When navigating the turtlebot using Rviz2,
 - **/rviz** node has an action client and acts as an action client node. It sends navigation goals for action **/navigate_to_pose** with action type **nav2msgs/action/NavigateToPose**. 
