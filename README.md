@@ -30,5 +30,14 @@ The new ROS2 package is created to create a new action client additional to Rviz
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/your-repository.git
+   git clone [https://github.com/SriHasitha/ROS2-Robot-Navigation.git](https://github.com/SriHasitha/ROS2-Robot-Navigation.git)
+   
+2. Build the package:
+   ```bash
+   colcon build
+
+## Usage
+
+
+   
 
